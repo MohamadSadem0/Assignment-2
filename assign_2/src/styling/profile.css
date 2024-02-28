@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #1e6de3;
+}
+
+body {
+  font-family: Poppins;
+}
+.profile {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  width: 88%;
+  height: 77%;
+  margin: 30px;
+  border-top-left-radius: 20px;
+  border-radius: 20px 20px 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.container > .yellow {
+  width: 40%;
+  height: 100%;
+  background-color: #ffcf23;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.img {
+  height: 40vh;
+  width: 50vh;
+  margin-left: -150px;
+  margin-top: 100px;
+  border-radius: 20px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 2px 5px 4px;
+}
+
+.container > .blue {
+  background-color: #1e6de3;
+  width: 70%;
+}
+.ull {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+.ull a {
+  padding: 20px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-top: 8%;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding-top: 30px;
+}
